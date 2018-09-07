@@ -1,0 +1,29 @@
+{
+    "name": "@equinor/react-ui-components",
+    "version": "0.0.0",
+    "private": true,
+    "description": "A collection of stateless ui-components used in react-applications at Equinor",
+    "workspaces": [
+        "packages/*"
+    ],
+    "scripts": {
+        "start:storybook": "start-storybook -p 9001",
+        "build:storybook": "build-storybook -o dist",
+        "lerna:bootstrap": "lerna bootstrap",
+        "lerna:clean": "lerna clean"
+    },
+    "devDependencies": {
+        "@dump247/storybook-state": "^1.5.0",
+        "@storybook/addon-actions": "^3.4.10",
+        "@storybook/addon-knobs": "^3.4.10",
+        "@storybook/react": "^3.4.10",
+        "eslint": "^5.5.0",
+        "eslint-config-airbnb": "^17.1.0",
+        "eslint-import-resolver-node": "^0.3.2",
+        "eslint-loader": "^2.1.0",
+        "eslint-plugin-import": "^2.14.0",
+        "eslint-plugin-jsx-a11y": "^6.1.1",
+        "eslint-plugin-react": "^7.11.1",
+        "lerna": "^3.3.0"
+    }
+}

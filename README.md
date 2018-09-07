@@ -45,5 +45,5 @@ The components use Styled Components for styling, which has theme-support built 
 Colour pallette
 ---------------
 
-The colour palette is based on the official Equinor pallette with a few exceptions, but instead of using a white background as recommended in the guidelines, we have created a subset of this palette suitable for a dark mode, which is easier on the eyes in the long run.
+The colour palette is based on the official Equinor pallette with a few exceptions, but instead of using a white background as recommended in the guidelines, we have created a subset of the palette suitable for a dark mode, which is easier on the eyes in the long run.
 

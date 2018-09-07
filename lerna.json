@@ -1,0 +1,12 @@
+{
+    "packages": [
+        "packages/*"
+    ],
+    "independent": true,
+    "version": "independent",
+    "npmClient": "yarn",
+    "npmClientArgs": [
+        "--no-lockfile"
+    ],
+    "useWorkspaces": true
+}
