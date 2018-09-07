@@ -7,12 +7,22 @@ All the components are controlled from the outside, even form controls like chec
 
 We are in the process of migrating existing components from an internal Equinor project still under development, while new ones from this point onwards will be developed directly in this repository.
 
-Usage
+Install
 -----
 
-```bash
-yarn add --dev @equinor/react-button
+Using npm:
+
+```sh
+npm install --save-dev @equinor/react-button
 ```
+
+Using yarn:
+
+```sh
+yarn add @equinor/react-button --dev
+```
+
+…in foo.js:
 
 ```js
 import Button from '@equinor/react-button'
