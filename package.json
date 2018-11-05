@@ -7,8 +7,8 @@
         "packages/*"
     ],
     "scripts": {
-        "start:storybook": "start-storybook -p 9001",
-        "build:storybook": "build-storybook -o dist",
+        "start": "start-storybook -p 9001",
+        "build": "build-storybook -o dist",
         "lerna:bootstrap": "lerna bootstrap",
         "lerna:clean": "lerna clean"
     },
